@@ -125,21 +125,28 @@ OS name: "mac os x", version: "10.10.2", arch: "x86_64", family: "mac"
 
 In this section you will learn how to use Maven to automate an existing project. This is also called 'mavenizing' a project.
 
-#### Create a fork of this Git Repository
 
+#### Fork your copy of the project on GitHub
 
-
-#### Fork your copy on GitHub
 
 #### Create a basic POM file
-
+- generate basic POM using `mvn archetype:generate`
+- fill in project settings
 - add Maven temporary files to .gitignore
 
 #### Add dependencies
+- add dependency entries for the required libraries.
+- lookup exact artifact id on [Maven-Central][mavencentral]
+- List of required libraries
+  - x
+  - y
+  - ...
+- Test `mvn compile` goal
 
 #### Add some dependency exclusions
 
-#### Verify the default
+
+#### Verify the default lifecycle
 
 #### Run tests
 
@@ -156,7 +163,7 @@ In this section you will learn how to use Maven to automate an existing project.
 
 - configure Tomcat-Plugin
 
-#### Integration tests
+#### Run Integration tests
 
 - compiler, exec, failsave plugin
 
@@ -167,6 +174,13 @@ In this section you will learn how to use Maven to automate an existing project.
 
 ### Part 3 - Practice Jenkins
 
+#### Login and configure Jenkins
+
+#### Manual build task
+
+#### Nightly build
+
+#### Trigger push on git repository
 
 
 > This concludes part 3 of the lab. You should now have configured Jenkins to run task periodically and on a git push.
@@ -182,4 +196,4 @@ In this section you will learn how to use Maven to automate an existing project.
 
 
 
-> **Congratulations! You finished the Lab Git & GitHub**
+> **Congratulations! You finished the Lab Maven & Jenkins**
