@@ -274,7 +274,7 @@ This is usefull to run integration tests (like selenium) or test your applicatio
 
 To do this you have to integrate and configure the [maven tomcat plugin][mvn-tomcat].
 
-- First add the tomcat maven plugin into the `<build><plugins>` block (after \<dependencies\>).
+- First add the tomcat maven plugin into the `<build><plugins>` block (after `<dependencies>`).
 
 ```
   ...
