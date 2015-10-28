@@ -19,4 +19,11 @@ Desktop.ini
 
 Solution.md
 target/
+# Eclipse files
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+bin/
 
