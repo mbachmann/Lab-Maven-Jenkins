@@ -310,7 +310,7 @@ To do this you have to integrate and configure the [maven tomcat plugin][mvn-tom
   </build>
 ```
 
-- Now you can start tomcat using `mvn tomcat:run`.
+- Now you can start tomcat using `mvn tomcat7:run`.
 - It will log the port and URLs of your application.
 - To access the test application open <http://localhost:8080/mvnlab/product/searchForm> in your browser
 
