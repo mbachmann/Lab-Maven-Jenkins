@@ -25,7 +25,7 @@ In this excercise you will:
   (Get the server name and account information from your lab assistant)
 
 ## Expected results
-Complete the tasks given below. Look up the required commands in the available documentation (see [References](#References)). To complete the assignment show your lab assistant the installed task on the Jenkins server.
+Complete the tasks given below. Look up the required commands in the available documentation (see [References](#references)). To complete the assignment show your lab assistant the installed task on the Jenkins server.
 
 <!--
 ## Grading
@@ -70,9 +70,9 @@ If you are stuck and have a problem you can not solve using the documentation, a
 
 This lab consists of three parts:
 
-1. [Setting up Maven](#part1-settingupmaven)
-2. [Master Maven](#part2-mastermaven)
-3. [Practice Jenkins](#part3-practicejenkins)
+1. [Setting up Maven](#part-1-setting-up-maven)
+2. [Master Maven](#part-2-master-maven)
+3. [Practice Jenkins](#part-3-practice-jenkins)
 
 ### Part 1 - Setting up Maven
 #### Installation
